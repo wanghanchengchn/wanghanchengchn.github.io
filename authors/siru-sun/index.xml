@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meng Li | Hancheng Wang</title>
-    <link>https://wanghanchengchn.github.io/authors/meng-li/</link>
-      <atom:link href="https://wanghanchengchn.github.io/authors/meng-li/index.xml" rel="self" type="application/rss+xml" />
-    <description>Meng Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <title>Siru Sun | Hancheng Wang</title>
+    <link>https://wanghanchengchn.github.io/authors/siru-sun/</link>
+      <atom:link href="https://wanghanchengchn.github.io/authors/siru-sun/index.xml" rel="self" type="application/rss+xml" />
+    <description>Siru Sun</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021</copyright><lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Meng Li</title>
-      <link>https://wanghanchengchn.github.io/authors/meng-li/</link>
+      <title>Siru Sun</title>
+      <link>https://wanghanchengchn.github.io/authors/siru-sun/</link>
     </image>
     
     <item>
-      <title>Bamboo Filters: Make Resizing Smooth</title>
-      <link>https://wanghanchengchn.github.io/publication/6-bamboofilters/</link>
-      <pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://wanghanchengchn.github.io/publication/6-bamboofilters/</guid>
+      <title>IBMvSVM: An instance-based multi-view SVM algorithm for classification</title>
+      <link>https://wanghanchengchn.github.io/publication/7-ibmvsvm/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://wanghanchengchn.github.io/publication/7-ibmvsvm/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

@@ -18,6 +18,31 @@
   </url>
   
   <url>
+    <loc>https://wanghanchengchn.github.io/post/1-distributed-networks-a1/</loc>
+    <lastmod>2022-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanghanchengchn.github.io/</loc>
+    <lastmod>2022-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanghanchengchn.github.io/post/</loc>
+    <lastmod>2022-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanghanchengchn.github.io/project/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanghanchengchn.github.io/project/internal-project/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wanghanchengchn.github.io/publication_types/1/</loc>
     <lastmod>2022-03-09T00:00:00+00:00</lastmod>
   </url>
@@ -33,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://wanghanchengchn.github.io/publication/6-bamboofilters/</loc>
+    <loc>https://wanghanchengchn.github.io/publication/1-bamboofilters/</loc>
     <lastmod>2022-03-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -49,11 +74,6 @@
   
   <url>
     <loc>https://wanghanchengchn.github.io/authors/haipeng-dai/</loc>
-    <lastmod>2022-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/</loc>
     <lastmod>2022-03-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -94,61 +114,51 @@
   
   <url>
     <loc>https://wanghanchengchn.github.io/publication_types/2/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/tags/data-mining/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/publication/7-ibmvsvm/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/authors/shiping-chen/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/authors/shuang-yu/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/authors/siru-sun/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/authors/xiaoli-zhang/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/authors/xiongfei-li/</loc>
-    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/publication/5-ccart/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wanghanchengchn.github.io/publication/4-bidi/</loc>
+    <loc>https://wanghanchengchn.github.io/publication/3-ccart/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanghanchengchn.github.io/tags/data-mining/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanghanchengchn.github.io/authors/shiping-chen/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanghanchengchn.github.io/authors/shuang-yu/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanghanchengchn.github.io/authors/xiaoli-zhang/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanghanchengchn.github.io/authors/xiongfei-li/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanghanchengchn.github.io/publication/2-bidi/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wanghanchengchn.github.io/publication/1-fabricgene/</loc>
+    <loc>https://wanghanchengchn.github.io/publication/5-fabricgene/</loc>
     <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wanghanchengchn.github.io/publication/2-ocs-svm/</loc>
+    <loc>https://wanghanchengchn.github.io/publication/4-ocs-svm/</loc>
     <lastmod>2019-08-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -158,33 +168,13 @@
   </url>
   
   <url>
-    <loc>https://wanghanchengchn.github.io/publication/3-cnn/</loc>
+    <loc>https://wanghanchengchn.github.io/publication/6-cnn/</loc>
     <lastmod>2019-08-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://wanghanchengchn.github.io/authors/zeyu-wang/</loc>
     <lastmod>2019-08-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/post/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/authors/admin/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -198,48 +188,11 @@
   </url>
   
   <url>
-    <loc>https://wanghanchengchn.github.io/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/tags/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <loc>https://wanghanchengchn.github.io/authors/admin/</loc>
   </url>
   
   <url>
     <loc>https://wanghanchengchn.github.io/categories/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wanghanchengchn.github.io/categories/demo/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>

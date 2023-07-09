@@ -5,7 +5,7 @@
     <link>https://wanghanchengchn.github.io/authors/haipeng-dai/</link>
       <atom:link href="https://wanghanchengchn.github.io/authors/haipeng-dai/index.xml" rel="self" type="application/rss+xml" />
     <description>Haipeng Dai</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023</copyright><lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023</copyright><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Haipeng Dai</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Bamboo Filters: Make Resizing Smooth</title>
-      <link>https://wanghanchengchn.github.io/publication/1-bamboofilters/</link>
-      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://wanghanchengchn.github.io/publication/1-bamboofilters/</guid>
+      <title>Adaptive Online Cache Capacity Optimization via Lightweight Working Set Size Estimation at Scale</title>
+      <link>https://wanghanchengchn.github.io/publication/8-cuki/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://wanghanchengchn.github.io/publication/8-cuki/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -37,8 +37,30 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     <item>
       <title>Distantly Supervised Entity Linking with Selection Consistency Constraint</title>
       <link>https://wanghanchengchn.github.io/publication/7-entitylinking/</link>
-      <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://wanghanchengchn.github.io/publication/7-entitylinking/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bamboo Filters: Make Resizing Smooth</title>
+      <link>https://wanghanchengchn.github.io/publication/1-bamboofilters/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://wanghanchengchn.github.io/publication/1-bamboofilters/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

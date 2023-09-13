@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="The approximate membership query (AMQ) data structure is a kind of space-efficient probabilistic data structure. It can approximately indicate whether an element exists in a set. The AMQ data structure has been widely used in database indexing, network security, IoT applications, etc. Resizing is an extensively utilized operation of the AMQ data structure, but it can lead to system performance degradation. We summarize two main problems that lead to such degradation. Specifically, one of them is that the resizing operation can block other operations, while the other is that the performance of AMQ structures will deteriorate after multiple resizing operations. However, existing related work cannot alleviate both of them. Therefore, we propose a novel AMQ data structure called bamboo filter, which can alleviate the two problems simultaneously. Bamboo filters can insert, search and delete an element in constant time. Moreover, bamboo filters can dynamically resize in a fine-grained way according to the number of contained elements. Experimental results show that bamboo filters significantly outperform state-ofthe- art resizable AMQ data structures in insertion, lookup, and deletion operations. For example, bamboo filters achieve 2.46× lookup throughput of the dynamic cuckoo filter, on average.">
+  <meta name="description" content="Approximate membership query (AMQ) data structures can efficiently determine whether an element is in a set. They are widely used in distributed systems, database systems, bioinformatics, IoT applications, data stream mining, \textit{etc.} However, the memory consumption of AMQ data structures grows rapidly as the data scale grows, which limits the system’s ability to process a massive amount of data. The emerging persistent memory provides a close-to-DRAM access speed and terabyte-level capacity, facilitating AMQ data structures to handle massive data. Nevertheless, existing AMQ data structures perform poorly on persistent memory due to intensive random accesses and/or sequential writes. Therefore, we propose a novel AMQ data structure called wormhole filter, which achieves high performance on persistent memory by reducing random accesses and sequential writes. In addition, we reduce the number of log records for lower recovery overhead. Theoretical analysis and experimental results show that wormhole filters significantly outperform competitive state-of-the-art AMQ data structures. For example, wormhole filters achieve 23.26× insertion throughput, 2.18× positive lookup throughput, and 8.82× deletion throughput of the best competing baseline.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://wanghanchengchn.github.io/publication/1-bamboofilters/">
+  <link rel="alternate" hreflang="en-us" href="https://wanghanchengchn.github.io/publication/9-wormhole/">
 
   
 
@@ -249,7 +249,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://wanghanchengchn.github.io/publication/1-bamboofilters/">
+  <link rel="canonical" href="https://wanghanchengchn.github.io/publication/9-wormhole/">
 
   
   
@@ -263,15 +263,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Hancheng Wang">
-  <meta property="og:url" content="https://wanghanchengchn.github.io/publication/1-bamboofilters/">
-  <meta property="og:title" content="Bamboo Filters: Make Resizing Smooth | Hancheng Wang">
-  <meta property="og:description" content="The approximate membership query (AMQ) data structure is a kind of space-efficient probabilistic data structure. It can approximately indicate whether an element exists in a set. The AMQ data structure has been widely used in database indexing, network security, IoT applications, etc. Resizing is an extensively utilized operation of the AMQ data structure, but it can lead to system performance degradation. We summarize two main problems that lead to such degradation. Specifically, one of them is that the resizing operation can block other operations, while the other is that the performance of AMQ structures will deteriorate after multiple resizing operations. However, existing related work cannot alleviate both of them. Therefore, we propose a novel AMQ data structure called bamboo filter, which can alleviate the two problems simultaneously. Bamboo filters can insert, search and delete an element in constant time. Moreover, bamboo filters can dynamically resize in a fine-grained way according to the number of contained elements. Experimental results show that bamboo filters significantly outperform state-ofthe- art resizable AMQ data structures in insertion, lookup, and deletion operations. For example, bamboo filters achieve 2.46× lookup throughput of the dynamic cuckoo filter, on average."><meta property="og:image" content="https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://wanghanchengchn.github.io/publication/9-wormhole/">
+  <meta property="og:title" content="Wormhole Filters: Caching Your Hash on Persistent Memory | Hancheng Wang">
+  <meta property="og:description" content="Approximate membership query (AMQ) data structures can efficiently determine whether an element is in a set. They are widely used in distributed systems, database systems, bioinformatics, IoT applications, data stream mining, \textit{etc.} However, the memory consumption of AMQ data structures grows rapidly as the data scale grows, which limits the system’s ability to process a massive amount of data. The emerging persistent memory provides a close-to-DRAM access speed and terabyte-level capacity, facilitating AMQ data structures to handle massive data. Nevertheless, existing AMQ data structures perform poorly on persistent memory due to intensive random accesses and/or sequential writes. Therefore, we propose a novel AMQ data structure called wormhole filter, which achieves high performance on persistent memory by reducing random accesses and sequential writes. In addition, we reduce the number of log records for lower recovery overhead. Theoretical analysis and experimental results show that wormhole filters significantly outperform competitive state-of-the-art AMQ data structures. For example, wormhole filters achieve 23.26× insertion throughput, 2.18× positive lookup throughput, and 8.82× deletion throughput of the best competing baseline."><meta property="og:image" content="https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-11-24T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2023-09-12T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-05-09T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-09-12T00:00:00&#43;00:00">
   
 
   
@@ -295,12 +295,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://wanghanchengchn.github.io/publication/1-bamboofilters/"
+    "@id": "https://wanghanchengchn.github.io/publication/9-wormhole/"
   },
-  "headline": "Bamboo Filters: Make Resizing Smooth",
+  "headline": "Wormhole Filters: Caching Your Hash on Persistent Memory",
   
-  "datePublished": "2021-11-24T00:00:00Z",
-  "dateModified": "2022-05-09T00:00:00Z",
+  "datePublished": "2023-09-12T00:00:00Z",
+  "dateModified": "2023-09-12T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -315,7 +315,7 @@
       "url": "img/https://wanghanchengchn.github.io/"
     }
   },
-  "description": "The approximate membership query (AMQ) data structure is a kind of space-efficient probabilistic data structure. It can approximately indicate whether an element exists in a set. The AMQ data structure has been widely used in database indexing, network security, IoT applications, etc. Resizing is an extensively utilized operation of the AMQ data structure, but it can lead to system performance degradation. We summarize two main problems that lead to such degradation. Specifically, one of them is that the resizing operation can block other operations, while the other is that the performance of AMQ structures will deteriorate after multiple resizing operations. However, existing related work cannot alleviate both of them. Therefore, we propose a novel AMQ data structure called bamboo filter, which can alleviate the two problems simultaneously. Bamboo filters can insert, search and delete an element in constant time. Moreover, bamboo filters can dynamically resize in a fine-grained way according to the number of contained elements. Experimental results show that bamboo filters significantly outperform state-ofthe- art resizable AMQ data structures in insertion, lookup, and deletion operations. For example, bamboo filters achieve 2.46× lookup throughput of the dynamic cuckoo filter, on average."
+  "description": "Approximate membership query (AMQ) data structures can efficiently determine whether an element is in a set. They are widely used in distributed systems, database systems, bioinformatics, IoT applications, data stream mining, \\textit{etc.} However, the memory consumption of AMQ data structures grows rapidly as the data scale grows, which limits the system’s ability to process a massive amount of data. The emerging persistent memory provides a close-to-DRAM access speed and terabyte-level capacity, facilitating AMQ data structures to handle massive data. Nevertheless, existing AMQ data structures perform poorly on persistent memory due to intensive random accesses and/or sequential writes. Therefore, we propose a novel AMQ data structure called wormhole filter, which achieves high performance on persistent memory by reducing random accesses and sequential writes. In addition, we reduce the number of log records for lower recovery overhead. Theoretical analysis and experimental results show that wormhole filters significantly outperform competitive state-of-the-art AMQ data structures. For example, wormhole filters achieve 23.26× insertion throughput, 2.18× positive lookup throughput, and 8.82× deletion throughput of the best competing baseline."
 }
 </script>
 
@@ -333,7 +333,7 @@
 
 
 
-  <title>Bamboo Filters: Make Resizing Smooth | Hancheng Wang</title>
+  <title>Wormhole Filters: Caching Your Hash on Persistent Memory | Hancheng Wang</title>
 
 </head>
 
@@ -544,7 +544,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Bamboo Filters: Make Resizing Smooth</h1>
+  <h1>Wormhole Filters: Caching Your Hash on Persistent Memory</h1>
 
   
 
@@ -564,7 +564,7 @@
 
 
   
-  <span><a href="/authors/admin/"><strong>Hancheng Wang</strong></a></span>, <span><a href="/authors/haipeng-dai/">Haipeng Dai</a></span>, <span><a href="/authors/meng-li/">Meng Li</a></span>, <span><a href="/authors/jun-yu/">Jun Yu</a></span>, <span><a href="/authors/rong-gu/">Rong Gu</a></span>, <span><a href="/authors/jiaqi-zheng/">Jiaqi Zheng</a></span>, <span><a href="/authors/guihai-chen/">Guihai Chen</a></span>
+  <span><a href="/authors/admin/"><strong>Hancheng Wang</strong></a></span>, <span><a href="/authors/haipeng-dai/">Haipeng Dai</a></span>, <span><a href="/authors/rong-gu/">Rong Gu</a></span>, <span><a href="/authors/youyou-lu/">Youyou Lu</a></span>, <span><a href="/authors/jiaqi-zheng/">Jiaqi Zheng</a></span>, <span><a href="/authors/jingsong-dai/">Jingsong Dai</a></span>, <span><a href="/authors/shusen-chen/">Shusen Chen</a></span>, <span><a href="/authors/zhiyuan-chen/">Zhiyuan Chen</a></span>, <span><a href="/authors/shuaituan-li/">Shuaituan Li</a></span>, <span><a href="/authors/guihai-chen/">Guihai Chen</a></span>
 
   </div>
   
@@ -576,7 +576,7 @@
     
       
     
-    May 2022
+    September 2023
   </span>
   
 
@@ -617,7 +617,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">The approximate membership query (AMQ) data structure is a kind of space-efficient probabilistic data structure. It can approximately indicate whether an element exists in a set. The AMQ data structure has been widely used in database indexing, network security, IoT applications, etc. Resizing is an extensively utilized operation of the AMQ data structure, but it can lead to system performance degradation. We summarize two main problems that lead to such degradation. Specifically, one of them is that the resizing operation can block other operations, while the other is that the performance of AMQ structures will deteriorate after multiple resizing operations. However, existing related work cannot alleviate both of them. Therefore, we propose a novel AMQ data structure called bamboo filter, which can alleviate the two problems simultaneously. Bamboo filters can insert, search and delete an element in constant time. Moreover, bamboo filters can dynamically resize in a fine-grained way according to the number of contained elements. Experimental results show that bamboo filters significantly outperform state-ofthe- art resizable AMQ data structures in insertion, lookup, and deletion operations. For example, bamboo filters achieve 2.46× lookup throughput of the dynamic cuckoo filter, on average.</p>
+    <p class="pub-abstract">Approximate membership query (AMQ) data structures can efficiently determine whether an element is in a set. They are widely used in distributed systems, database systems, bioinformatics, IoT applications, data stream mining, \textit{etc.} However, the memory consumption of AMQ data structures grows rapidly as the data scale grows, which limits the system’s ability to process a massive amount of data. The emerging persistent memory provides a close-to-DRAM access speed and terabyte-level capacity, facilitating AMQ data structures to handle massive data. Nevertheless, existing AMQ data structures perform poorly on persistent memory due to intensive random accesses and/or sequential writes. Therefore, we propose a novel AMQ data structure called wormhole filter, which achieves high performance on persistent memory by reducing random accesses and sequential writes. In addition, we reduce the number of log records for lower recovery overhead. Theoretical analysis and experimental results show that wormhole filters significantly outperform competitive state-of-the-art AMQ data structures. For example, wormhole filters achieve 23.26× insertion throughput, 2.18× positive lookup throughput, and 8.82× deletion throughput of the best competing baseline.</p>
     
 
     
@@ -647,7 +647,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In Proceedings of the 38th IEEE International Conference on Data Engineering (<strong>IEEE ICDE, CCF-A</strong>)</div>
+          <div class="col-12 col-md-9">In Proceedings of the the 2024 ACM European Conference on Computer Systems (<strong>EuroSys, CCF-A</strong>)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -698,7 +698,7 @@ Supplementary notes can be added here, including [code and math](https://sourcet
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://wanghanchengchn.github.io/publication/1-bamboofilters/&amp;text=Bamboo%20Filters:%20Make%20Resizing%20Smooth" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://wanghanchengchn.github.io/publication/9-wormhole/&amp;text=Wormhole%20Filters:%20Caching%20Your%20Hash%20on%20Persistent%20Memory" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -711,7 +711,7 @@ Supplementary notes can be added here, including [code and math](https://sourcet
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://wanghanchengchn.github.io/publication/1-bamboofilters/&amp;t=Bamboo%20Filters:%20Make%20Resizing%20Smooth" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://wanghanchengchn.github.io/publication/9-wormhole/&amp;t=Wormhole%20Filters:%20Caching%20Your%20Hash%20on%20Persistent%20Memory" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -724,7 +724,7 @@ Supplementary notes can be added here, including [code and math](https://sourcet
       
       
       <li>
-        <a href="mailto:?subject=Bamboo%20Filters:%20Make%20Resizing%20Smooth&amp;body=https://wanghanchengchn.github.io/publication/1-bamboofilters/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Wormhole%20Filters:%20Caching%20Your%20Hash%20on%20Persistent%20Memory&amp;body=https://wanghanchengchn.github.io/publication/9-wormhole/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -737,7 +737,7 @@ Supplementary notes can be added here, including [code and math](https://sourcet
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://wanghanchengchn.github.io/publication/1-bamboofilters/&amp;title=Bamboo%20Filters:%20Make%20Resizing%20Smooth" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://wanghanchengchn.github.io/publication/9-wormhole/&amp;title=Wormhole%20Filters:%20Caching%20Your%20Hash%20on%20Persistent%20Memory" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -750,7 +750,7 @@ Supplementary notes can be added here, including [code and math](https://sourcet
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Bamboo%20Filters:%20Make%20Resizing%20Smooth%20https://wanghanchengchn.github.io/publication/1-bamboofilters/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Wormhole%20Filters:%20Caching%20Your%20Hash%20on%20Persistent%20Memory%20https://wanghanchengchn.github.io/publication/9-wormhole/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -763,7 +763,7 @@ Supplementary notes can be added here, including [code and math](https://sourcet
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://wanghanchengchn.github.io/publication/1-bamboofilters/&amp;title=Bamboo%20Filters:%20Make%20Resizing%20Smooth" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://wanghanchengchn.github.io/publication/9-wormhole/&amp;title=Wormhole%20Filters:%20Caching%20Your%20Hash%20on%20Persistent%20Memory" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -802,6 +802,19 @@ Supplementary notes can be added here, including [code and math](https://sourcet
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/10-vle/">Variable-length Encoding Framework: A Generic Framework for Enhancing the Accuracy of Approximate Membership Queries</a></li>
+      
+      <li><a href="/publication/8-cuki/">Adaptive Online Cache Capacity Optimization via Lightweight Working Set Size Estimation at Scale</a></li>
+      
+      <li><a href="/publication/1-bamboofilters/">Bamboo Filters: Make Resizing Smooth</a></li>
+      
+    </ul>
+  </div>
   
 
 

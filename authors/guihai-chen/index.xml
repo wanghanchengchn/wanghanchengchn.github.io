@@ -5,7 +5,7 @@
     <link>https://wanghanchengchn.github.io/authors/guihai-chen/</link>
       <atom:link href="https://wanghanchengchn.github.io/authors/guihai-chen/index.xml" rel="self" type="application/rss+xml" />
     <description>Guihai Chen</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023</copyright><lastBuildDate>Tue, 12 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024</copyright><lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Guihai Chen</title>
@@ -15,8 +15,30 @@
     <item>
       <title>Wormhole Filters: Caching Your Hash on Persistent Memory</title>
       <link>https://wanghanchengchn.github.io/publication/9-wormhole/</link>
-      <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://wanghanchengchn.github.io/publication/9-wormhole/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Large-scale Network Community Detection Algorithm Based on MapReduce</title>
+      <link>https://wanghanchengchn.github.io/publication/12-mapreduce/</link>
+      <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://wanghanchengchn.github.io/publication/12-mapreduce/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

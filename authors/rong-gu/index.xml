@@ -57,6 +57,28 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     </item>
     
     <item>
+      <title>Lock-free Concurrent Cuckoo Filter</title>
+      <link>https://wanghanchengchn.github.io/publication/15-lockfree-cuckoo/</link>
+      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://wanghanchengchn.github.io/publication/15-lockfree-cuckoo/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Variable-length Encoding Framework: A Generic Framework for Enhancing the Accuracy of Approximate Membership Queries</title>
       <link>https://wanghanchengchn.github.io/publication/11-vle/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>

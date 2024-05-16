@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Huayi Chai | Hancheng Wang</title>
-    <link>https://wanghanchengchn.github.io/authors/huayi-chai/</link>
-      <atom:link href="https://wanghanchengchn.github.io/authors/huayi-chai/index.xml" rel="self" type="application/rss+xml" />
-    <description>Huayi Chai</description>
+    <title>Wenqi Luo | Hancheng Wang</title>
+    <link>https://wanghanchengchn.github.io/authors/wenqi-luo/</link>
+      <atom:link href="https://wanghanchengchn.github.io/authors/wenqi-luo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wenqi Luo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024</copyright><lastBuildDate>Thu, 16 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Huayi Chai</title>
-      <link>https://wanghanchengchn.github.io/authors/huayi-chai/</link>
+      <title>Wenqi Luo</title>
+      <link>https://wanghanchengchn.github.io/authors/wenqi-luo/</link>
     </image>
     
     <item>
-      <title>Bamboo Filters: Make Resizing Smooth and Adaptive</title>
-      <link>https://wanghanchengchn.github.io/publication/16-bambooton/</link>
+      <title>Cost-sensitive Variable-hash Cuckoo Filter</title>
+      <link>https://wanghanchengchn.github.io/publication/17-cost-sensitive-cf-jos/</link>
       <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://wanghanchengchn.github.io/publication/16-bambooton/</guid>
+      <guid>https://wanghanchengchn.github.io/publication/17-cost-sensitive-cf-jos/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

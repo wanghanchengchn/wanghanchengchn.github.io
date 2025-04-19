@@ -5,7 +5,7 @@
     <link>https://wanghanchengchn.github.io/project/</link>
       <atom:link href="https://wanghanchengchn.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024</copyright><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025</copyright><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -13,10 +13,19 @@
     </image>
     
     <item>
-      <title>Research on Adaptive Filters</title>
-      <link>https://wanghanchengchn.github.io/project/internal-project/</link>
+      <title>Young Talent Support Project Doctoral Special Program, CAST (2025)</title>
+      <link>https://wanghanchengchn.github.io/project/2-2025cast/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://wanghanchengchn.github.io/project/2-2025cast/</guid>
+      <description>&lt;p&gt;2025-2026, Young Talent Support Project Doctoral Special Program, granted by the China Association for Science and Technology (CAST), First session, 3,226 recipients nationwide.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Postgraduate Research &amp; Practice Innovation Program of Jiangsu Province (2022)</title>
+      <link>https://wanghanchengchn.github.io/project/1-2022jiangsu/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://wanghanchengchn.github.io/project/internal-project/</guid>
+      <guid>https://wanghanchengchn.github.io/project/1-2022jiangsu/</guid>
       <description>&lt;p&gt;2022-2023, &amp;ldquo;Research on Adaptive Filters&amp;rdquo;, granted by the Postgraduate Research &amp;amp; Practice Innovation Program of Jiangsu Province, No. KYCX22_0152.&lt;/p&gt;
 </description>
     </item>

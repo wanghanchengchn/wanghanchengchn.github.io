@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Youyou Lu | Hancheng Wang</title>
-    <link>https://wanghanchengchn.github.io/authors/youyou-lu/</link>
-      <atom:link href="https://wanghanchengchn.github.io/authors/youyou-lu/index.xml" rel="self" type="application/rss+xml" />
-    <description>Youyou Lu</description>
+    <title>Chengxun Wu | Hancheng Wang</title>
+    <link>https://wanghanchengchn.github.io/authors/chengxun-wu/</link>
+      <atom:link href="https://wanghanchengchn.github.io/authors/chengxun-wu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chengxun Wu</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025</copyright><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Youyou Lu</title>
-      <link>https://wanghanchengchn.github.io/authors/youyou-lu/</link>
+      <title>Chengxun Wu</title>
+      <link>https://wanghanchengchn.github.io/authors/chengxun-wu/</link>
     </image>
     
     <item>
@@ -17,28 +17,6 @@
       <link>https://wanghanchengchn.github.io/publication/20-tpds/</link>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://wanghanchengchn.github.io/publication/20-tpds/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Wormhole Filters: Caching Your Hash on Persistent Memory</title>
-      <link>https://wanghanchengchn.github.io/publication/9-wormhole/</link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://wanghanchengchn.github.io/publication/9-wormhole/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

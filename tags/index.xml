@@ -5,12 +5,28 @@
     <link>https://wanghanchengchn.github.io/tags/</link>
       <atom:link href="https://wanghanchengchn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025</copyright><lastBuildDate>Sat, 18 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025</copyright><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
       <link>https://wanghanchengchn.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Distributed Systems</title>
+      <link>https://wanghanchengchn.github.io/tags/distributed-systems/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://wanghanchengchn.github.io/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parallel Systems</title>
+      <link>https://wanghanchengchn.github.io/tags/parallel-systems/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://wanghanchengchn.github.io/tags/parallel-systems/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data Mining</title>

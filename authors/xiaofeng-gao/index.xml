@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaofeng Gao | Hancheng Wang</title>
+    <link>https://wanghanchengchn.github.io/authors/xiaofeng-gao/</link>
+      <atom:link href="https://wanghanchengchn.github.io/authors/xiaofeng-gao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaofeng Gao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026</copyright><lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wanghanchengchn.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Xiaofeng Gao</title>
+      <link>https://wanghanchengchn.github.io/authors/xiaofeng-gao/</link>
+    </image>
+    
+    <item>
+      <title>When Complex Event Recognition Meets Cloud-Native Architectures</title>
+      <link>https://wanghanchengchn.github.io/publication/21-cer-icde/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://wanghanchengchn.github.io/publication/21-cer-icde/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
